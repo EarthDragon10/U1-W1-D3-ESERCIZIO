@@ -30,12 +30,21 @@ header span {
 
 /* MAIN */
 
-/* #title-main {
+#title-main {
 	color: #0b7693;
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: bold;
-} */
+	font-weight: 700;
+	margin: 20px;
+}
+
+main figure {
+	border: 1px gray solid;
+	text-align: center;
+	width: 245px;
+	padding: 8px;
+	margin: auto;
+}
 
 /* ELEMENTI NEL MAIN */
 
