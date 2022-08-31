@@ -32,6 +32,7 @@ header span {
 
 main {
 	padding: 20px;
+	font-weight: 600;
 }
 
 .title-main {
@@ -84,21 +85,30 @@ p b {
 	color: #94d0e5;
 }
 
-.last-section {
+.section-lineHeight {
 	line-height: 1.6em;
 }
 
-.last-section h3 {
+.section-h3 {
 	font-weight: bold;
-	margin-top: 1em;
+	margin: 1em 0;
 }
 
 .last-section mark {
 	background-color: #0b7693;
+	color: white;
 }
 
 .last-section a {
 	color: red;
 }
 
+ul,
+dd {
+	margin-left: 3em;
+}
+
+dl strong {
+	color: #0b7693;
+}
 /* FOOTER */
