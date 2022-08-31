@@ -6,7 +6,36 @@ body {
 
 /* HEADER */
 
+header {
+	background-color: #0b7693;
+	border-bottom: 5px #155364 solid;
+	text-align: center;
+}
+
+header h1 {
+	text-transform: uppercase;
+	line-height: 1.5em;
+	color: white;
+	padding-top: 1em;
+}
+
+header h2 {
+	line-height: 3.5em;
+}
+
+header span {
+	background-color: white;
+	color: #0b7693;
+}
+
 /* MAIN */
+
+/* #title-main {
+	color: #0b7693;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+} */
 
 /* ELEMENTI NEL MAIN */
 
