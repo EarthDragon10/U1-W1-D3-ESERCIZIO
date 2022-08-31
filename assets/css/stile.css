@@ -30,6 +30,10 @@ header span {
 
 /* MAIN */
 
+main {
+	padding: 20px;
+}
+
 #title-main {
 	color: #0b7693;
 	text-transform: uppercase;
@@ -38,14 +42,36 @@ header span {
 	margin: 20px;
 }
 
-main figure {
-	border: 1px gray solid;
+/* ELEMENTI NEL MAIN */
+
+#img-wrap {
 	text-align: center;
-	width: 245px;
-	padding: 8px;
-	margin: auto;
 }
 
-/* ELEMENTI NEL MAIN */
+.img-section {
+	border: 1px gray solid;
+	width: 245px;
+	padding: 8px;
+	margin-bottom: 5px;
+}
+
+address {
+	margin: 15px auto;
+	line-height: 1.5em;
+}
+
+address b,
+p b {
+	font-weight: bold;
+}
+
+.section-cit {
+	background-color: #bbc7caff;
+	text-align: center;
+	width: 80vw;
+	padding: 15px;
+	border-radius: 15px;
+	margin: auto;
+}
 
 /* FOOTER */
