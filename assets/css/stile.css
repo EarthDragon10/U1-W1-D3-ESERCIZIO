@@ -4,6 +4,10 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
+hr {
+	border-top: dashed 1.5px gray;
+}
+
 /* HEADER */
 
 header {
